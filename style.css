@@ -54,7 +54,7 @@ body{
 .navright ul li:focus-within .dropdown,
 .navright ul li:hover .dropdown {
     opacity: 1;
-    transform: translateY(5%);
+    transform: translateY(-10%);
     transition-delay: 0s;
 }
 
@@ -91,4 +91,8 @@ button{
 button:hover{
     background-color:orange;
     color: white;
+}
+.hero-section img{
+    width: 100%;
+    height: 100%;
 }
